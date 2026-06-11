@@ -3,30 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Srishti - Cyborg Tech - Future is Now</title>
-  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      padding: 40px;
+      background: rgba(0,0,0,0.3);
+      border-radius: 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      font-size: 1rem;
+      background: white;
+      color: #764ba2;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-  <section class="hero">
-    <h1>CYBORG <span>2026</span></h1>
-    <p>Experience the Future with AI-Powered Tech</p>
-    <p style="font-size: 0.9rem; margin-top: 10px;">Created by Srishti for Techfest IIT Bombay CA Program</p></p>
-    <button>Explore Now</button>
-  </section>
-  
-  <section class="about">
-    <h2>About Cyborg Tech</h2>
-    <p>Next-gen technology for tomorrow's world. Built for innovators.</p>
-  </section>
-  
-  <section class="features">
-    <h2>Features</h2>
-    <div class="card">AI Integration</div>
-    <div class="card">Cloud Security</div>
-    <div class="card">Real-time Analytics</div>
-  </section>
-  
-  <footer>Contact: yourmail@gmail.com | CA ID: CA-061106432410</footer>
-  <script src="script.js"></script>
+  <div class="container">
+    <h1>Hi, I'm Srishti 👋</h1>
+    <p>Web Developer | Designer | Creator</p>
+    <button onclick="alert('Contact me at: srishti@email.com')">Contact Me</button>
+  </div>
 </body>
 </html>
